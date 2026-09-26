@@ -75,6 +75,7 @@ function M.run_config(projectFile, scheme)
     projectFile,
     "-scheme",
     scheme,
+    "--skip-validate-bin"
   }
 
   if configJobId then
